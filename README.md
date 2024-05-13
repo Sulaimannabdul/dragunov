@@ -22,6 +22,57 @@ Ghidra provides a suite of tools and features that aid in the analysis of binary
 Dragunov projects come for Improving the disassembly and decompilation, this can be helpful if a register is used to store a global
 variable. Additionally, it can sometimes be helpful to set register values when trying to understand a function.
 
+```
+Ghidra/
+│
+├── docs/
+│   └── (...).md
+│
+├── eclipse/
+│   └── (...).java
+│
+├── features/
+│   └── (...).xml
+│
+├── GhidraDocs/
+│   └── (...).pdf
+│
+├── GhidraExtensions/
+│   └── (...).zip
+│
+├── Ghidra/Framework/
+│   ├── Project/
+│   └── SoftwareModeling/
+│
+├── Ghidra/Modules/
+│   ├── Analysis/
+│   ├── FileSystem/
+│   └── BinaryLoader/
+│
+├── Ghidra/RuntimeScripts/
+│   └── (...).py
+│              └── Dragunov.──
+│            
+├── Ghidra/Test/
+│   └── (...).java
+│                └── Dragunov.──
+│                └── Dragunov.md──
+│
+├── Ghidra/Features/
+│   └── Decompiler/
+│
+├── scripts/
+│   └── (...).py
+│              └── Dragunov.──
+│
+├── server/
+│   └── (...).java
+│
+├── .gitignore
+├── README.md
+└── build.gradle
+```
+
 ## Security Warning
 
 **WARNING:** There are known security vulnerabilities within certain versions of Ghidra.  Before 
